@@ -1,9 +1,9 @@
 //import models
-const User = require('./user');
+const User = require('./User');
 
-const Post = require('./post');
+const Post = require('./Post');
 
-const Comment = require('./comment');
+const Comment = require('./Comment');
 
 //association methods for the Sequelize models to create relationships between them
 //A user can have many posts
